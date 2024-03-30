@@ -17,14 +17,14 @@ const GetApp = () => {
                         <Button
                             type="button"
                             title="App Store"
-                            icon="/apple.svg"
+                            icon="apple.svg"
                             varient="btn_white"
                             full
                         />
                         <Button
                             type="button"
                             title="Play Store"
-                            icon="/android.svg"
+                            icon="android.svg"
                             varient="btn_dark_green_outline"
                             full
                         />
@@ -33,7 +33,7 @@ const GetApp = () => {
 
                 <div className="flex flex-1 items-center justify-end">
                     <Image
-                        src="/phones.png"
+                        src="phones.png"
                         alt="phones"
                         width={550}
                         height={870}
