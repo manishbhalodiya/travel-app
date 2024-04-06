@@ -31,14 +31,13 @@ const config: Config = {
 		  },
 		},
 		backgroundImage: {
-		  'bg-img-1': "url('/public/img-1.png')",
 		  'bg-img-2': "url('/public/img-2.png')",
 		  'feature-bg': "url('/public/feature-bg.png')",
 		  'pattern': "url('/public/pattern.png')",
 		  'pattern-2': "url('/public/pattern-bg.png')",
 		},
 		screens: {
-		  xs: '400px',
+		  'xs': '400px',
 		  '3xl': '1680px',
 		  '4xl': '2200px',
 		},
