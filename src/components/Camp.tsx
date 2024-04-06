@@ -17,7 +17,7 @@ const CampSite = ({
 }: CampSiteProps) => {
     return (
         <div
-            className={`h-full w-full min-w-[1100px] bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`} style={{ backgroundImage: 'url(' + bgImage + ')'}}
+            className={`h-full w-full min-w-[1100px] bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`} style={{ backgroundImage: `url(${bgImage})`}}
         >
             {/* <Image src={bgImage} className="h-full w-full min-w-[1100px] bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl z-0" alt={bgImage} width={1100} height={500} /> */}
             <div className="flex relative h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10 z-1">
